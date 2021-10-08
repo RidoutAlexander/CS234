@@ -12,7 +12,6 @@ easier and more convenient.
 The program will allow players to keep track of their winnings in different games. The different types
 of games are "Cash Games", "Tournaments", and "Sit-and-go's". These will be different classes.
 Tournaments and Sit-and-go's are very similar so Sit-and-Go's will inherit traits from Tournaments.
-I will also have a class type for a Session so that my database can pull from a list of sessions.
 
 Some of the methods that I will use include but are not limited to:
 
