@@ -1,0 +1,31 @@
+Project Description:
+
+One of my favorite hobbies is playing Poker. For most people, Poker is just a pass time,
+however, some people make their living doing it. In order to make your living doing it, you have to
+ensure that you are playing in games where you have an advantage over the competition and that you keep
+a proper bankroll. In order to be sure that you are doing this, you have to keep track of stats like 
+Return on investment (ROI), Variance, Sample size, Bankroll, Winrate, Different types of games, 
+and expenses. As a result, most good poker players have a rather messy, difficult to use excel
+spreadsheet on their computers. I am going to design a database program that makes this process a lot
+easier and more convenient.
+
+The program will allow players to keep track of their winnings in different games. The different types
+of games are "Cash Games", "Tournaments", and "Sit-and-go's". These will be different classes.
+Tournaments and Sit-and-go's are very similar so Sit-and-Go's will inherit traits from Tournaments.
+I will also have a class type for a Session so that my database can pull from a list of sessions.
+
+Some of the methods that I will use include but are not limited to:
+
+SelectGameType()         //returns the type of game
+GetBankroll()            //displays the current bankroll
+GetRecommendedBuyin()    //displays the recommended buyin
+GetFullStats()           //diplays a full stat report for a given game type
+CreateSession()          //logs a new session into the database
+DeleteSession()          //Removes a session from the database
+GetRecommendedGameType() //displays the recommended game to play based off of stats
+ValidateSampleSize()     //Answers the question "Is this sample size relevant?" 
+                         //Potentially will display a confidence interval
+                         
+
+
+
